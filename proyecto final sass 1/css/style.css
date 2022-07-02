@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #071433;
+  position: sticky;
+  top: 0px;
+}
+header nav {
+  background-color: #071433;
+  color: white;
+  padding: 20px;
+  position: sticky;
+  top: 0px;
+}
+header nav .contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  width: 100%;
+  margin: 0px;
+}
+header nav .caja {
+  margin-inline: 10px;
+  width: 90px;
+  padding: 10px;
+  background-color: #040C1F;
+  border-radius: 10px;
+}
+
+body {
+  background-color: #0E2966;
+  color: white;
+}
+
+footer {
+  background-color: #071433;
+  color: white;
+  padding: 10px;
+  position: sticky;
+}
+footer .contenedorf {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 0px;
+}
+footer .cajaf {
+  margin: 5px;
+  width: 100%;
+}
+footer footer ul {
+  width: 30%;
+  margin: 0;
+  display: inline-block;
+}
+footer footer p {
+  display: inline-block;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 10px;
+}
+footer ul li footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 75px;
+  margin: 20px;
+  margin-left: 0;
+  animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+.inicio {
+  padding: 20px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.inicio .parrafo {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+.inicio .hijo {
+  text-align: initial;
+}
+.inicio .hijo2 {
+  text-align: center;
+}
+.inicio .messiImagen {
+  width: 375px;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}/*# sourceMappingURL=style.css.map */
